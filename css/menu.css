@@ -1,0 +1,59 @@
+body {
+	font-family: Lato, sans-serif;
+	color: white;
+	margin: 30px;
+	background-color: #42110d;
+}
+
+#menu {
+	background-image: url('../img/Menu_img.png'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 100px 0px; /* Adjust padding as needed */
+	border: 2px solid #f2e593;
+}
+
+.menu {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.heading {
+	text-align: center;
+	padding-left: 50px;
+	padding-right: 50px;
+	margin: 0px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-opacity: 0.42;
+}
+
+.heading p {
+	font-size: 70px;
+	color: #fbc02d;
+}
+
+h2 {
+	font-size: 30px;
+	color: #fbc02d;
+	text-align: left;
+	letter-spacing: 6px;
+	padding: 10px;
+}
+
+span {
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	padding: 20px;
+}
+.last {
+	padding: 20px;
+	color: #fbc02d;
+	font-family: "Fredericka the Great", cursive;
+	letter-spacing: 2px;
+}
